@@ -6,7 +6,7 @@ end = int(input())
 
 if end < start:
     print("Second integer can't be less than the first.")
-else:
+else: 
    
     for num in range(start, end + 1, 5):
         print(num, end=' ')
